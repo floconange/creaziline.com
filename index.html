@@ -1,0 +1,193 @@
+
+<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+	
+<meta charset="utf-8">
+<title>Creaziline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="">
+  <meta name="description" content="Creaziline - Visual Designer and more...">
+  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Style -->
+  <link rel="stylesheet" href="presentational-only/presentational-only.css">
+
+  <!-- stylesheet for background responsive -->
+  <link rel="stylesheet" href="style_responsive_bg.css">
+	
+
+	
+<!-- open/close function -->	
+<script type="text/javascript"> 
+function openClose(id)
+{
+  if(document.getElementById)
+    var elt = document.getElementById(id);
+  else if(document.all)
+    var elt = document.all[ id];
+  else
+    return;
+
+  if (elt.style) {
+    if (elt.style.display == 'none')
+      elt.style.display = 'block';
+    else
+      elt.style.display = 'none';
+  }
+}
+</script>
+		
+</head>
+	
+<body>
+  <nav class="navbar" id="top">
+	  <div class="inner"><a class="left" href="">Home</a><a class="right" href="">Menu</a></div>
+  </nav>
+	
+  <header class="container">
+    <section class="content">
+		<h1><span>Creaziline</span><img src="images/logo.png" alt="logo" /></h1>
+		
+      <p class="sub-title">Visual Designer and more... </p>
+      <p><a class="button" id="load-more-content" href="#more-content">Follow me</a></p>
+    </section>
+  </header>
+	
+      <div id="more-content">
+        
+        <blockquote>
+			<div id="intro">
+       <h2>Making design attractive,<br />fun... useable!</h2>
+
+		Creaziline focuses on the best user experience to find the perfect design around a panel of different graphic and technic skills.
+		<ul>
+			<li> UI / UX</li>
+			<li> Illustration</li>
+			<li> Branding</li>
+			<li> Infographic</li>
+			<li> Integration</li>
+			<li> Animation</li>
+		</ul>
+			</div>
+			
+			<div class="clear"></div>
+        </blockquote>
+		 
+        <div id="meerkat-content">
+			<h1>Finding the perfect visual</h1><p>to fit the concept...</p><img src="images/meerkat_illustration.jpg" alt="meerkat illustrations" />
+		</div>
+		  
+
+		  
+		<div id="projects">
+			
+			<div id="projects-content"><h1>Projects</h1>
+		    From Start-Ups to big Companies, discover a panel of various interresting projects with differents skills and goals.
+			</div>
+			
+				<!---- tablets ------>
+				<div class="book">
+				<img src="images/tablets_icon.jpg" /> 
+					<div class="sub-title">Tablets Interfaces</div><b>Visual Design</b> <a class="button" href="#projects-content" onClick="openClose('content_tablet')">View Project</a>
+				</div>
+	
+			
+				<div id="content_tablet" style="display:none;" >
+					<div class="content_projects" >
+					<h2>In store customer experience :</h2>
+					<p>Yves Rocher is a French Cosmetic conpany created around Botanical Beauty. Every month the brand offers a selection of new products.</p>
+					<p>I developped a new in store customer experience with tablets to allow Customers to find products faster, and more easily.</p>
+					</div>
+					<img src="images/bg-tablets.jpg" />
+				</div>
+				<!---- end tablets ------>
+			
+			
+				<!---- website ------>
+				<div class="book" id="website">
+				<img src="images/websites_icon.jpg" /> 
+					<div class="sub-title">Websites Interfaces</div><b>Visual Design</b> <a class="button" href="#website" onClick="openClose('content_website')">View Project</a>
+				</div>
+			
+				<div id="content_website" style="display:none;">
+					<div class="content_projects" >
+					<h2>Keep calm and use Cookable :</h2>
+					<p>Cookable is a new concept of cooking. “Be a Hero, Be Cookable”.</p>
+					<p>I designed the complete graphic identity to introduce this new way to cook. Then the interface and integration of the website.</p>
+					</div>
+					<img src="images/bg-websites.jpg" />
+				</div>
+				<!---- end website ------>
+		  
+				<!---- media ------>
+				<div class="book" id="media">
+				<img src="images/medias_icon.jpg" /> 
+					<div class="sub-title">Social Media supports</div><b>Illustrations</b> <a class="button" href="#media" onClick="openClose('content_media')">View Project</a>
+				</div>
+				
+				<div id="content_media" style="display:none;" >
+					<div class="content_projects" >
+					<h2>Yves Rocher</h2>
+					<p>As part of the Social Media and Branding efforts, I designed different illustrations for profile and cover pictures (Facebook, Twitter). These profiles were then included, and then used to launch the new iPhone app.</p>
+					</div>
+					<img src="images/bg-medias.jpg" />
+				</div>
+				<!---- end media ------>
+
+			<!--<div class="book">Personnal Projects <br /> Illustrations <a href="">View Project</a></div>
+			<div class="book">Graphic Identity <br /> Branding <a href="">View Project</a></div>
+			<div class="book">Illustrations for a Study <br /> Infographics <a href="">View Project</a></div>
+			<div class="book">Launching Video <br /> Animation <a href="">View Project</a></div>-->	  
+		  
+		</div><!-- end projects -->
+	
+	
+		  
+		  
+		  
+		  <div id="hello"><h1>Say hello</h1></div>
+	
+		  
+		  <div class="contact">
+		  
+			
+		  <form action="?" method="get" >
+
+			<label for="fname">First Name*</label><input type="text" id="fname" name="firstname" placeholder="">
+
+			<label for="lname">Last Name*</label><input type="text" id="lname" name="lastname" placeholder=""></li>
+
+			<label for="comp">Company</label><input type="text" id="comp" name="company" placeholder=""></li>
+
+			<label for="subject">Subject*</label><textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+			  
+			  <div class="clear"></div>
+			  
+			  <div class="g-recaptcha" data-sitekey="6Le53RUUAAAAAGyChlQ0QhnPO8FXEFRzskMCofVR"></div>
+		  
+			  <div class="clear"></div>
+			<div id="sub"><input type="submit" value="Submit"></div>
+
+		  </form>
+	
+			<script src='https://www.google.com/recaptcha/api.js'></script>
+		
+		</div>
+		
+	 <!-- end contact-form --->
+	
+	<div id="footer">Creaziline <ul><li><a href="">facebook</a></li><li><a href="">Instagram</a></li><li><a href="">twitter</a></li></ul></div>
+		  
+	</div> <!-- end more-content div -->
+	
+	
+	
+</body>
+</html>
