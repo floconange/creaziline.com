@@ -173,7 +173,15 @@ function openClose(id)
 			  <div class="clear"></div>
 			  
 			  
-		  		<div class="g-recaptcha" data-sitekey="6LcWeVokAAAAANdgpaDwoHVgDojykCSlrjMcFIor"></div>
+		  
+		  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcWeVokAAAAANdgpaDwoHVgDojykCSlrjMcFIor"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LcWeVokAAAAANdgpaDwoHVgDojykCSlrjMcFIor', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
 		  
 			  <div class="clear"></div>
 			<div id="sub"><input type="submit" value="Submit"></div>
