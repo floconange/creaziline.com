@@ -1,9 +1,9 @@
 <?php 
 // Get data from form 
-$lname = $_GET['lname'];
-$fname = $_GET['fname'];
-$email= $_GET['email'];
-$message= $_GET['message'];
+$lname = $_POST['lname'];
+$fname = $_POST['fname'];
+$email= $_POST['email'];
+$message= $_POST['message'];
  
 $to = "caroline@creaziline.com";
 $subject = "Contact form";
