@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  color: #696869;
 }
 
 .container ul{
@@ -21,8 +21,19 @@ body {
 .center{text-align: center;}
 
 .left{text-align: left; padding: 0 100px 0 100px;}
+.leftintro{text-align: left; padding: 0;}
 
 .top-banner{margin: 80px 0 80px 0}
+
+#intro{background-image: url("../img/intro.jpg"); height: 454px; background-repeat: no-repeat; background-position: center; color: #fff; font-size: 1.5rem; padding-top: 60px;}
+
+#intro a {background-color: #138378; color: #fff; text-decoration: none; font-weight: normal; padding: 10px 15px 10px 15px; font-size: 0.85rem;}
+
+#intro h2 {font-weight: bold; margin: 10px 0 20px 0;}
+
+.teal {color: #138378; font-weight: bold;}
+
+.linkspace {margin: 10px 0 20px 0; display: block;}
 
 @media (max-width: 780px) {
   .top-banner img, .square-content img, iframe{
@@ -35,8 +46,9 @@ body {
 }
 
 a {
-  color: #777;
-  text-decoration: none;
+  color: #696869;
+  text-decoration: underline;
+	font-weight: bold;
 }
 
 a:hover {
@@ -54,7 +66,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 2em 0;
 }
 
 .filters a {
@@ -64,6 +76,7 @@ h6,
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
+	font-weight: normal;
 }
 
 .filters a:hover,
@@ -226,7 +239,7 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #696869;
 }
 
 .custom-navmenu .custom-menu,
@@ -295,10 +308,11 @@ h6,
 --------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
+	font-size: 0.8rem;
 }
 
 .footer a {
-  color: #000;
+  color: #696869;
 }
 
 .social a {
