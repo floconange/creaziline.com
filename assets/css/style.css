@@ -18,6 +18,8 @@ body {
 	margin: 10px 0 0 0;
 }
 
+.container h2 {font-size: 60px;}
+
 .center{text-align: center;}
 
 .left{text-align: left; padding: 0 100px 0 100px;}
@@ -27,11 +29,16 @@ body {
 
 #intro{background-image: url("../img/intro.jpg"); height: 454px; background-repeat: no-repeat; background-position: center; color: #fff; font-size: 1.5rem; padding-top: 60px;}
 
+#aboutme{background-image: url("../img/intro.jpg"); height: 174px; background-repeat: no-repeat; background-position: center; color: #fff; font-size: 1.5rem; padding-top: 60px;}
+#aboutme h2{font-weight: bold;}
+
+
+
 #intro a {background-color: #138378; color: #fff; text-decoration: none; font-weight: normal; padding: 10px 15px 10px 15px; font-size: 0.85rem;}
 
 #intro h2 {font-weight: bold; margin: 10px 0 20px 0;}
 
-.teal {color: #138378; font-weight: bold;}
+.teal {color: #138378; font-weight: bold; display: inline;}
 
 .linkspace {margin: 10px 0 20px 0; display: block;}
 
@@ -115,11 +122,11 @@ h6,
   background-color: #000;
 }
 
-.container h2 {font-size: 60px;}
+
 
 .item {
-  border: none;
-  margin-bottom: 30px;
+	padding: 0;
+	margin: 0;
 }
 
 .item .item-wrap {
