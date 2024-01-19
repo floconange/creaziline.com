@@ -27,7 +27,7 @@ body {
 
 .top-banner{margin: 80px 0 80px 0}
 
-#intro{background-image: url("../img/intro2.jpg"); height: 420px; background-repeat: no-repeat; background-position: top; color: #fff; font-size: 1.5rem; padding-top: 60px; }
+#intro{background-image: url("../img/intro.jpg"); height: 420px; background-repeat: no-repeat; background-position: top; color: #fff; font-size: 1.5rem; padding-top: 60px; }
 
 #aboutme{background-image: url("../img/intro.jpg"); height: 174px; background-repeat: no-repeat; background-position: center; color: #fff; font-size: 1.5rem; padding-top: 60px;}
 #aboutme h2{font-weight: bold;}
