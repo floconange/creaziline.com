@@ -680,7 +680,7 @@ min-width: 0;
     order: 1;
   }
 	
-.video-frame{border: 1px solid red;}	
+.video-frame{border: 1px solid red; width: 450px; height: 250px;}	
 	.video {margin: 30px 0 100px 0; }
 
 }
