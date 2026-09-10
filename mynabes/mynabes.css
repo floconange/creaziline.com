@@ -396,15 +396,6 @@ min-width: 0;
 
 }
 
-.video-frame .vyoutube {
-    display: block;
-    width: 100%;
-    height: auto;
-	overflow: hidden;
-  border-radius: 14px;
-  background: #fafafd;
-}
-
 .video .-section-title {margin: 0 90px 0 90px; }
 
 
@@ -690,7 +681,7 @@ min-width: 0;
   }
 	
 	
-	.video {margin: 30px 0 100px 0;}
+	.video {margin: 30px 0 100px 0; width: 650px;}
 
 }
 
