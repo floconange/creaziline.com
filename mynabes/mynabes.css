@@ -391,12 +391,12 @@ min-width: 0;
 
 .video-frame {
     width: 100%;
-    /*max-width: 900px;*/
+    max-width: 900px;
     margin: 40px auto 0;
 
 }
 
-.video-frame video {
+.video-frame .vyoutube {
     display: block;
     width: 100%;
     height: auto;
