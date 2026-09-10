@@ -1,0 +1,717 @@
+
+/* =========================================================
+    CHILD PAGE
+   The parent ../style.css owns the global design system,
+   typography, navigation, footer, colors and responsive base.
+========================================================= */
+
+
+.hero-int {
+  position: relative;
+  min-height: 85px;
+
+background: var(--navy);
+	
+  color: white;
+
+  overflow: hidden;
+}
+
+.-page {
+--blue: #1458e8;
+  --orange: #ff6b16;
+  --light: #fafafd;
+}
+
+.-hero {
+  max-width: 1080px;
+  min-height: 365px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 35% 40%, #eaf7ff, transparent 48%),
+    #fff;
+}
+
+.-hero-copy {
+  padding: 40px 35px 35px 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.-back-link {
+  color: var(--orange);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.-hero-copy h1 {
+  margin: 28px 0 0;
+  color: #050505;
+  font-size: 72px;
+
+  line-height: .95;
+
+  font-weight: 900;
+
+  letter-spacing: -2px;
+}
+
+.-hero-subtitle {
+  margin: 8px 0 14px;
+  color: var(--blue);
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.-hero-intro {
+  max-width: 350px;
+  margin: 0;
+  color: #292929;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.-check-list,
+.-mini-checks,
+.-mini-points{
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+margin-top: 28px;
+  display: grid;
+  gap: 10px;
+}
+
+
+.-check-list li,
+.-mini-points li{
+  color: #111;
+  font-weight: 900;
+  margin: 2px 0;
+}
+
+.-check-list li::before,
+.-mini-checks li::before,
+.-mini-points li::before{
+  content: "✓";
+  display: inline-grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  margin-right: 10px;
+  color: white;
+  background: var(--blue);
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+
+
+.-hero-art {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.-hero-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* COMMON */
+
+.-project-section,
+.-split-section,
+.-delivered,
+.-feature,
+.-workshop,
+.video{
+  max-width: 1080px;
+  margin: 0 auto;
+
+}
+
+.device-grid {
+	max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0 180px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+
+}
+
+.-eyebrow {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0 0 12px;
+  letter-spacing: .3px;
+}
+
+.-text {
+  color: var(--blue);
+}
+
+.-miniline {
+  display: block;
+  width: 27px;
+  height: 4px;
+  background: var(--blue);
+  margin: 13px 0 17px;
+}
+
+
+
+.-page .-project-section h2,
+.-page .-split-section h2,
+.-page .-delivery-copy h2,
+.-page .-feature-copy h2,
+.-page .-workshop-copy h2{
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 900;
+
+
+}
+
+.-project-section p,
+.-split-section p,
+.-feature-copy p,
+.-workshop-copy p{
+  font-size: 14px;
+  line-height: 1.4;
+	
+}
+
+
+/* PROJECT INTRO + BENEFITS */
+
+.-project-section {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 180px 0 0px;
+
+  display: grid;
+  grid-template-columns: 30% minmax(0, 1fr);
+  gap: 28px;
+}
+
+.-project-intro p:last-child {
+  max-width: 255px;
+  margin: 0;
+	
+}
+
+.-benefit-grid {
+min-width: 0;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+
+}
+
+.-benefit-card {
+  min-height: 170px;
+	min-width: 0;
+	border-radius: 13px;
+	border: 2px solid #fafafd;
+  padding: 15px 12px 15px;
+  background: #fafafd;
+  text-align: center;
+	
+}
+
+
+.-benefit-card h3 {
+  margin: 0 0 5px;
+  font-size: 14px;
+}
+
+.-benefit-card p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.-benefit-card img {
+  margin-bottom: 15px;
+}
+
+
+/*----------- IDEA -----------*/
+
+.-feature {
+  display: grid;
+  grid-template-columns: 52% minmax(0, 1fr);
+  gap: 65px;
+  align-items: center;
+  margin-bottom: 180px;
+}
+
+.-feature-image {
+  overflow: hidden;
+  border-radius: 20px;
+  background: #f7f7fb;
+}
+
+.-feature-image img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.-challenge img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.-challenge{margin-bottom: 0;}
+
+
+
+
+
+/* SPLIT */
+
+.-split-section {
+  padding: 25px 0 55px;
+  display: grid;
+	margin: 0 auto;
+	width: 1080px;
+ grid-template-columns: 42% minmax(0, 1fr);
+	align-items: center;
+ 
+}
+
+.-split-section > img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+
+  display: block;
+
+  border-radius: 14px;
+
+  object-fit: cover;
+}
+
+.split-section > div {
+  min-width: 0;
+}
+
+
+
+.-split-section > div p:last-child {
+  max-width: 350px;
+  margin: 0;
+}
+
+
+
+
+.-workshop {
+  display: grid;
+  grid-template-columns: minmax(0, 31%) minmax(0, 1fr);
+  gap: 45px;
+  align-items: start;
+  padding:  0;
+  margin-bottom: 180px;
+	margin-top: 180px;
+}
+
+.-workshop-copy {
+  min-width: 0;
+}
+
+.workshop-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, .75fr);
+  gap: 18px;
+  width: 100%;
+  min-width: 0;
+}
+
+.workshop-gallery figure {
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fafafa;
+}
+
+.workshop-gallery img {
+  display: block;
+  width: 100%;
+}
+
+.workshop-main img {
+  height: 520px;
+  object-fit: cover;
+}
+
+.workshop-side {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.workshop-side img {
+  height: 251px;
+  object-fit: cover;
+}
+
+.workshop-gallery figcaption {
+  padding: 10px 13px 12px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+
+.video {
+    background: #f8f8fa;
+	margin-bottom: 150px;
+	padding: 40px 0 40px 0;
+	overflow: hidden;
+  border-radius: 14px;
+}
+
+.video-frame {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0;
+
+}
+
+.video-frame video {
+    display: block;
+    width: 100%;
+    height: auto;
+	overflow: hidden;
+  border-radius: 14px;
+  background: #fafafd;
+}
+
+.video .-section-title {margin: 0 90px 0 90px; }
+
+
+
+
+
+/* CHARACTER */
+
+.-delivered {
+	font-size: 14px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.-delivered h2 {font-size: 28px; margin: 0; font-weight: normal;}
+
+.-section-title {
+  display: flex;
+  font-size: 20px;
+  gap: 16px;
+  margin-bottom: 28px;
+
+}
+
+.-section-title p {
+  margin: 0;
+  font-size: 14px;
+	color: var(--blue);
+	font-weight: 900;
+	margin: 0 0 15px 0;
+}
+
+.-delivery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.-delivery-card {
+  display: grid;
+  /*grid-template-columns: 53% 47%;*/
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fafafd;
+}
+
+.-delivery-card > img {
+  width: 100%;
+  height: 100%;
+	object-fit: cover;
+}
+
+.-delivery-copy {
+  padding: 20px 16px;	
+}
+
+.-delivery-copy p{
+	margin-top: 20px;}
+
+
+
+.-delivery-copy h2 {
+  font-size: 13px !important;
+  line-height: 1.25 !important;
+
+		
+}
+
+.-delivery-copy p:not(.-eyebrow) {
+  font-size: 12px;
+  line-height: 1.35;
+	
+}
+
+.-wordmark {
+  margin-top: 25px;
+  color: #111;
+  font-size: 19px;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* -------- BENEFIT -------*/
+.key-benefit {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.8fr);
+  gap: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.key-benefit > div,
+.key-benefit > img {
+  min-width: 0;
+}
+
+.key-benefit > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+  .-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .-hero-copy {
+    padding: 35px 30px;
+  }
+
+  .-hero-art {
+    height: 310px;
+  }
+
+  .-project-section {
+    padding: 45px 25px 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .-project-intro p:last-child {
+    max-width: 600px;
+  }
+
+  .-device-grid,
+  .-split-section,
+  .-delivered {
+    width: calc(100% - 50px);
+  }
+	
+	.device-grid {
+    width: calc(100% - 40px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 10px;
+  }
+	
+
+  .-split-section {
+    grid-template-columns: 1fr 1fr;
+  }
+	
+  .key-benefit {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 30px;
+  }
+
+  .key-benefit > img {
+    width: 100%;
+    max-width: 100%;
+  }
+	
+	  .-idea,
+	.-challenge{
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+    gap: 40px;
+	  margin:00px 0 0px 0;
+		
+  }
+
+  .-idea > img,
+	.-challenge >img {
+    width: 50%;
+    height: auto;
+    display: block;
+    order: 1;
+  }
+
+	
+	.video .-section-title {margin: 0 }
+}
+
+@media (max-width: 650px) {
+  .-hero-copy {
+    padding: 30px 22px;
+  }
+
+  .-hero-copy h1 {
+    font-size: 44px;
+  }
+
+  .-hero-art {
+    height: 235px;
+  }
+
+  .-project-section {
+    padding-left: 20px;
+    padding-right: 20px;
+	  margin: 0;
+
+
+
+  }
+	.-feature-image{margin: 0; background: none;}
+	
+	
+	 .-project-section img {
+    
+		 height: 70%;
+		 width: 100%;
+		 margin: 0;
+
+  }
+
+  .-benefit-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .device-grid {
+    width: calc(100% - 40px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 10px;
+  }
+
+  .-split-section {
+    width: calc(100% - 40px);
+    grid-template-columns: 1fr;
+    gap: 22px;
+
+ }
+
+
+  .-delivery-grid {
+    grid-template-columns: 1fr;
+	  
+  }
+
+  .-delivered {
+    width: calc(100% - 40px);
+	  margin-top:  0px;
+	  margin-bottom:  60px;
+
+  }
+	
+	.-workshop {
+	padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+		margin: 0px 0 0px 0;
+		
+	
+  }
+
+  .-workshop-copy {
+    width: 100%;
+    position: static;
+  }
+
+  .workshop-gallery {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-main img {
+    height: auto;
+  }
+
+  .workshop-side {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .workshop-side img {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+	
+	.video .-section-title {margin: 0 }
+	
+  .-idea,
+	.-challenge{
+    grid-template-columns: 1fr;
+    padding: 00px 20px;
+    gap: 40px;
+	  margin:0px 0 50px 0;
+  }
+
+  .-idea > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    order: 1;
+  }
+	
+	
+	.video {margin: 30px 0 60px 0;}
+
+}
+
+
+@media (max-width: 900px) {
+  
+  .-feature,
+   {
+    width: min(calc(100% - 50px), var(--max-width));
+  }
+
+  
+  .-feature,
+   {
+    gap: 30px;
+  }
+	
+	
+	
