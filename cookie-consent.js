@@ -120,4 +120,16 @@
         setTimeout(showBanner, 400);
     }
 
+     // --------------------------------------------------
+    // Privacy
+    // --------------------------------------------------
+
+    const privacyChoices = document.getElementById("privacyChoices");
+
+if (privacyChoices) {
+    privacyChoices.addEventListener("click", function () {
+        showBanner();
+    });
+}
+
 })();// JavaScript Document
