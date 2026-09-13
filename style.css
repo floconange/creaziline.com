@@ -1109,6 +1109,33 @@ footer img {
   font-size: 14px;
 }
 
+.footer-legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-legal a,
+.footer-legal button {
+    background: none;
+    border: none;
+    padding: 0;
+
+    color: inherit;
+    font: inherit;
+    font-size: 13px;
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-legal a:hover,
+.footer-legal button:hover {
+    color: #ff6b1a;
+}
+
 
 /* =========================================================
    TABLET
