@@ -25,9 +25,9 @@
                     You can choose which optional cookies you accept.
                 </p>
 
-                <a href="/privacy.html" class="cookie-link">
+                <!--<a href="/privacy.html" class="cookie-link">
                     Privacy policy
-                </a>
+                </a>-->
             </div>
 
             <div class="cookie-actions">
